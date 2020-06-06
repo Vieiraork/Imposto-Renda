@@ -8,6 +8,8 @@
 	<center>
 		<div class="container container-fluid p-4 rounded p-4 my-3 border">
 <?php
+	trim($_POST["salario"]);
+	trim($_POST["imposto"]);
 
 	if(empty($_POST["salario"]) || empty($_POST["imposto"])){
 		header('Location: index.html');
