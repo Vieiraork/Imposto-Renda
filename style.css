@@ -1,0 +1,11 @@
+body{
+	margin-top: 100px;
+}
+
+.fundo{
+	background: transparent url('imposto.png') no-repeat left bottom;
+}
+
+.container{
+	background: rgba(255, 255, 255, 0.7);
+}
