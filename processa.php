@@ -10,7 +10,7 @@
 <?php
 
 	if(empty($_POST["salario"]) || empty($_POST["imposto"])){
-		header('Location: index.html')
+		header('Location: index.html');
 	}
 
 	class Processa{
