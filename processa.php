@@ -6,7 +6,7 @@
 	</head>
 <body class="fundo">
 	<center>
-		<div class="container container-fluid p-4 rounded p-4 my-3 border" style="width: 500px;">
+		<div class="container container-fluid p-4 rounded p-4 my-3 border">
 <?php
 	class Processa{
 		private $minimo;
