@@ -8,6 +8,11 @@
 	<center>
 		<div class="container container-fluid p-4 rounded p-4 my-3 border">
 <?php
+
+	if(empty($_POST["salario"]) || empty($_POST["imposto"])){
+		header('Location: index.html')
+	}
+
 	class Processa{
 		private $minimo;
 		private $dependentes;
